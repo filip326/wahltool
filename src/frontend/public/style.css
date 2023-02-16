@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.loginFormWrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loginForm {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 10px;
+    width: 50%;
+    height: fit-content;
+}
+
+.loginForm > h1 {
+    grid-column: 1 / 3;
+}
