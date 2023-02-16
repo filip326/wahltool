@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRB - Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="root.css">
+    <link rel="stylesheet" href="login.css">
 </head>
-
+<!-- KML878787 -->
 <body>
     <main>
-        <div class="loginFormWrapper">
-            <form class="loginForm">
+        <div>
+            <form class="loginForm" action="/login" method="post">
                 <h1>Login Form</h1>
                 <label for="username">Benutzername:</label>
                 <input type="text" placeholder="max.mustermann" name="username" id="username">
@@ -20,7 +21,7 @@
                 <input type="password" name="password" id="password" placeholder="Passwort123">
                 <button type="reset">Felder leeren</button>
                 <button type="submit">Anmelden</button>
-                <button style="grid-column: 2;">
+                <button>
                     Zugangsdaten vergessen?
                 </button>
             </form>
